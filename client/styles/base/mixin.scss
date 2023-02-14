@@ -1,0 +1,26 @@
+@mixin transition{
+  transition: all ease 0.3s;
+}
+
+@mixin relative{
+  position: relative;
+  top:0; left:0;
+}
+
+@mixin absoluteCenter{
+  position: absolute;
+  top:50%; left:50%;
+  transform: translate(-50%,-50%);
+}
+
+@mixin txtHidden{
+  width:100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+@mixin virtual{
+  display:block;
+  content: '';
+}
